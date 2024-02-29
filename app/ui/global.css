@@ -2,6 +2,16 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: 'NimBold';
+  src: url('../../public/fonts/Nimbus-Sans-D-OT-Bold_32747.ttf');
+}
+
+@font-face {
+  font-family: 'NimLight';
+  src: url('../../public/fonts/Nimbus-Sans-D-OT-Light_32752.ttf');
+}
+
 input[type='number'] {
   -moz-appearance: textfield;
   appearance: textfield;
